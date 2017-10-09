@@ -37,8 +37,6 @@ data HashAlgorithm
     | SHA3_384
     | SHA3_256
     | SHA3_224
-    -- | BLAKE2B
-    -- | BLAKE2S
     deriving (Show, Read, Eq, Enum, Bounded)
 
 
